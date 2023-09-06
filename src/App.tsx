@@ -2,8 +2,7 @@ import styles from "./style";
 
 const App = () => {
   return (
-      <div className={`${styles.PrimaryBgDark}`}>
-        <button className="rounded-full">Save Changes</button>
+      <div className={`${styles.PrimaryBg}`}>
         <p>Test</p>
       </div>
   );
