@@ -1,7 +1,10 @@
+import styles from "../../style.tsx";
+
 const NavigationBar = () => {
   return (
-    <nav>
-    </nav>
+      <nav className={`${styles.NavBase}`}>
+
+      </nav>
   );
 };
 

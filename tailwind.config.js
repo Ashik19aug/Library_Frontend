@@ -17,6 +17,7 @@ export default {
         black: colors.black,
         white: colors.white,
         gray: colors.gray,
+        green: colors.green,
         emerald: colors.emerald,
         indigo: colors.indigo,
         yellow: colors.yellow,
@@ -26,7 +27,7 @@ export default {
       },
     },
     screens: {
-      mobile: "480px",
+      mobile: "425px",
       tablet: "620px",
       laptop: "1024px",
       desktop: "1280px",
