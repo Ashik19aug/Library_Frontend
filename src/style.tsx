@@ -5,7 +5,7 @@ const styles = {
   ComponentBg: 'bg-gradient-to-r from-slate-900/75 to-slate-900/75 rounded-xl ',//bg-gradient-to-r from-slate-300 to-slate-500
   MultiComponentBg: 'flex flex-col-reverse laptop:flex-row justify-between rounded-xl bg-transparent drop-shadow-md hover:drop-shadow-lg mb-0',
   SocialSection: 'flex w-full h-[50px] hover:drop-shadow-xl rounded-xl',
-  ItemHeadingSection: 'flex w-full h-[25px] hover:drop-shadow-xl rounded-xl',
+
   ItemListSection: 'flex w-full h-[500px] hover:drop-shadow-xl rounded-xl',
   NewItemSection: 'h-[500px] hover:drop-shadow-xl rounded-xl',
   NewItemGrid: 'grid grid-cols-3 laptop:grid-cols-3 tablet:grid-cols-2 mobile:grid-cols-1 gap-6 tablet:gap-3 mobile:gap-4 mb-4 h-fit',
@@ -22,7 +22,7 @@ const styles = {
 };
 
 export const Size = {
-  Slider: 'h-40 tablet:h-64 laptop:h-96 desktop:h-96 desktop:h-96',
+  // Slider: 'h-40 tablet:h-64 laptop:h-96 desktop:h-96 desktop:h-96',
 };
 
 // export const layout = {
