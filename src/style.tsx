@@ -1,5 +1,9 @@
+export const Position = {
+  center: 'justify-center items-center',
+};
+
 const styles = {
-  PrimaryBg: ' w-full overflow-hidden text-black bg-gradient-to-r from-slate-900/95 to-slate-900/95',//bg-gradient-to-r from-slate-900 to-slate-700
+  PrimaryBg: ' w-full overflow-hidden text-white bg-white-300 dark:bg-gradient-to-r from-slate-900 to-slate-700',//bg-gradient-to-r from-slate-900 to-slate-700
 
   ComponentBase: 'mb-4',//bg-gradient-to-r from-slate-300 to-slate-500
   ComponentBg: 'bg-gradient-to-r from-slate-900/75 to-slate-900/75 rounded-xl ',//bg-gradient-to-r from-slate-300 to-slate-500
@@ -10,7 +14,7 @@ const styles = {
   NewItemSection: 'h-[500px] hover:drop-shadow-xl rounded-xl',
   NewItemGrid: 'grid grid-cols-3 laptop:grid-cols-3 tablet:grid-cols-2 mobile:grid-cols-1 gap-6 tablet:gap-3 mobile:gap-4 mb-4 h-fit',
 
-  NavBase: 'flex hidden laptop:flex fixed w-full z-20 top-0 left-0 dark:border-gray-600 h-20 supports-backdrop-blur:bg-white/95 bg-gradient-to-r from-slate-900/95 to-slate-900/95 mb-4 rounded-xl',
+  NavBase: `flex ${Position.center} hidden laptop:flex fixed w-full z-20 top-0 left-0 dark:border-gray-600 h-20 supports-backdrop-blur:bg-white/95 bg-gradient-to-r from-slate-900/95 to-slate-900/95 mb-4 rounded-xl`,
   NavBaseBottom: 'laptop:hidden fixed w-full z-20 bottom-0 left-0 dark:border-gray-600 h-20 supports-backdrop-blur:bg-white/95 bg-gradient-to-r from-slate-900/95 to-slate-900/95 rounded-xl mt-4',
 
   SliderBase: 'flex w-full overflow-hidden text-gray',
@@ -22,8 +26,9 @@ const styles = {
 };
 
 export const Size = {
-  // Slider: 'h-40 tablet:h-64 laptop:h-96 desktop:h-96 desktop:h-96',
+  Slider: 'h-40 tablet:h-64 laptop:h-96 desktop:h-96 desktop:h-96',
 };
+
 
 // export const layout = {
 //   test: `flex md:flex-row flex-col ${styles.paddingY}`,

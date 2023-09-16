@@ -7,8 +7,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  // darkMode: 'class',
-  mode: "jit",
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
