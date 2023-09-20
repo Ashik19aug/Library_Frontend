@@ -1,9 +1,10 @@
 export const Position = {
   center: 'justify-center items-center',
+  centerRight: 'justify-end items-center',
 };
 
 const styles = {
-  PrimaryBg: ' w-full overflow-hidden text-white bg-white-300 dark:bg-gradient-to-r from-slate-900 to-slate-700',//bg-gradient-to-r from-slate-900 to-slate-700
+  PrimaryBg: ' w-full overflow-hidden text-white bg-white-900 dark:bg-gradient-to-r from-slate-900/75 to-slate-900/75',//bg-gradient-to-r from-slate-900 to-slate-700
 
   ComponentBase: 'mb-4',//bg-gradient-to-r from-slate-300 to-slate-500
   ComponentBg: 'bg-gradient-to-r from-slate-900/75 to-slate-900/75 rounded-xl ',//bg-gradient-to-r from-slate-300 to-slate-500
