@@ -27,7 +27,7 @@ const styles = {
 };
 
 export const Size = {
-  Slider: 'h-40 tablet:h-64 laptop:h-96 desktop:h-96 desktop:h-96',
+  Slider: 'h-64 tablet:h-64 laptop:h-96 desktop:h-96 desktop:h-96',
 };
 
 
